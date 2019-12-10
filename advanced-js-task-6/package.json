@@ -1,0 +1,31 @@
+{
+  "name": "advancedjs_task5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "echo start",
+    "build:clean": "echo build:clean",
+    "build:prod": "echo build:prod",
+    "test:coverage": "jest --collect-coverage",
+    "prettier": "prettier --write src/*.js",
+    "lint": "eslint --debug src/ --fix"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/main.js"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.7.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-jest": "^21.18.0"
+  }
+}
